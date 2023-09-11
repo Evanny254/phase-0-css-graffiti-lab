@@ -1,1 +1,85 @@
-/* write your override styles here */
+/* wri/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the wall container */
+  #wall {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the individual tags */
+  .tag-1 {
+    background-color: #ff5733;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  #tag-2 {
+    background-color: #33ff57;
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  #tag-3 {
+    background-color: #339aff;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  /* Style tags within .parent containers */
+  .parent {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  #tag-4 {
+    background-color: #ff33f7;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  #tag-5 {
+    background-color: #33aaff;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  /* Style nested tags within .parent containers */
+  #tag-6 {
+    background-color: #ffaa33;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  #tag-7 {
+    background-color: #ff3366;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  /* Add styles for the slick and wicked classes */
+  .slick {
+    font-style: italic;
+    text-decoration: underline;
+  }
+  
+  .wicked {
+    font-weight: bold;
+  }
+  te your override styles here */
